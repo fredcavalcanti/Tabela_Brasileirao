@@ -9,3 +9,14 @@ scrapy crawl brasileirao
 ```
 Requerimentos
 - scrapy
+
+Saidas:
+
+- Terminal:
+- ![alt text](https://github.com/fredcavalcanti/Tabela_Brasileirao/blob/main/Outputs/output1.png?raw=true)
+
+- Pasta:
+- ![alt text](https://github.com/fredcavalcanti/Tabela_Brasileirao/blob/main/Outputs/output2.png?raw=true)
+
+- Arquivo:
+- ![alt text](https://github.com/fredcavalcanti/Tabela_Brasileirao/blob/main/Outputs/output3.png?raw=true)
