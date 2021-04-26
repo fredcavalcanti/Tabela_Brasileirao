@@ -1,10 +1,15 @@
 import json
+import os
 from itemadapter import ItemAdapter
 
 
 class BrasileiraoScrapyPipeline:
 
     def open_spider(self, spider):
+      try:
+        os.makedirs('Tabelas')
+      except:
+        pass
       print('Iniciando Crawler')
       self.table2021 = open('Tabelas/tabela-2021.txt', 'w', encoding='utf-8')
       self.table2020 = open('Tabelas/tabela-2020.txt', 'w', encoding='utf-8')
